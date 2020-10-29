@@ -1,0 +1,33 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  height: 400px;
+}
+.header-img {
+   height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+h1  {
+  padding: 20px 0 0 20px;
+}
+
+main {
+  width: 840px;
+  margin: 0 auto;
+  padding: 20px 0 50px 0;
+}
+
+.site {
+  text-align: left;
+  border-bottom: solid 2px rgb(155, 145, 145);
+  padding: 30px 0;
+}
